@@ -2,7 +2,7 @@
 mkdir -p /var/tmp/nginx/
 
 # Prevent startup of nginx (ubuntu 16.04 needs it)
-ln -f -s /var/lib/nginx/logs /var/log/nginx
+# ln -f -s /var/lib/nginx/logs /var/log/nginx
 
 # Replace markers
 go-replace \
