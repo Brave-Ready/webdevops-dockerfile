@@ -1,10 +1,10 @@
 #!/bin/bash
 
 REGION="us-central1"
-PROJECT_ID="brave-ready"
-REPOSITORY="brave-ready"
+PROJECT_ID="onward-ops"
+REPOSITORY="onward-ops"
 IMAGE="webdevops-php-nginx"
-TAG="8.1-no-symbolic-link"
+TAG="8.1"
 
 FULL_IMAGE="${REGION}-docker.pkg.dev/${PROJECT_ID}/${REPOSITORY}/${IMAGE}:${TAG}"
 
